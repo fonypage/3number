@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MIGNAT INC.</title>
+</head>
+
+<body>
+    <header class="header_cont">
+        <div class="header">
+            <li>
+                <img src="mignat-inc-website-favicon-white.png" alt="" width="56">
+            </li>
+            <li class="title">
+                <img src="mignat-inc-low-resolution-logo-black-on-transparent-background.png" alt="" height="40">
+            </li>
+        </div>
+        <nav>
+            <ul class="main header1">
+                <li class="navigation">
+                    <a href="#">Навигация по сайту</a>
+                    <ul class="dropdown">
+                        <li><a href="#Hyperlink">Гиперссылки</a></li>
+                        <li><a href="#Table">Таблица</a></li>
+                        <li><a href="#Form">Form</a></li>
+                    </ul>
+                </li>
+                <li class="navigation"><a href="#Table">Таблица</a></li>
+                <li class="navigation"><a href="#Form">Форма</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main_nav_cont">
+        <div>
+            <ul class="center">
+                <li id="Hyperlink">
+                    <a href="http://kubsu.ru">КубГУ</a>
+                </li>
+                <li>
+                    <a href="https://kubsu.ru">КубГУ</a>
+                </li>
+                <li id="photo" class="photo1">
+                    <a href="image.jpg"><img src="image.jpg" alt="" height="250"></a>
+                </li>
+                <li>
+                    <a href="./example/vnytreniy.html">Внутренняя</a>
+                </li>
+                <li>
+                    <a href="./index.html">Главная</a>
+                </li>
+                <li>
+                    <a href="#photo">Фото</a>
+                </li>
+                <li>
+                    <a href="http://shop.com/catalog/phone?page=1&prepage=3&color=2">Ссылка с 3-я параметрами</a>
+                </li>
+                <li>
+                    <a href="http://google.com?id=part1">Ссылка с параметром id</a>
+                </li>
+                <li>
+                    <a href="./example/tekyshiy catalog.html">Относительная в текущем каталоге</a>
+                </li>
+                <li>
+                    <a href="./about/About.html">Относительная на каталог About</a>
+                </li>
+                <li>
+                    <a href="./example/catalog.html">Относительная на каталог выше</a>
+                </li>
+                <li>
+                    <a href="./example/example2/index3.html">Относительная на 2 каталога выше</a>
+                </li>
+                <li>
+                    <p>
+                        Примерный абзац для контекстной ссылки в <a href="https://kubsu.ru/user">личный кабинет</a>
+                        КубГУ
+                    </p>
+                </li>
+                <li>
+                    <a href="https://html5book.ru/hyperlinks-in-html#part3">Ссылка на фрагмент сторонней страницы</a>
+                </li>
+                <li>
+                    <img src="link_button.jpg" alt="" height="370" width="400" usemap="#circle" usemap="#rect">
+                    <map name="circle" name="rect">
+                        <area shape="circle" coords="93,185,45" href="http://kubsu.ru" alt="">
+                        <area shape="rect" coords="181,155,374,214" href="http://kubsu.ru" alt="">
+                    </map>
+                </li>
+                <li>
+                    <a href="">Пустая ссылка</a>
+                </li>
+                <li>44
+                    <a title="Nohref">No href</a>
+                </li>
+                <li>
+                    <a href="http://google.com" rel="nofollow">Запрещен переход поисковикам</a>
+                </li>
+                <li>
+                    <!--<noindex>-->
+                    <a href="http://google.com" rel="nofollow">Запрещен для индексации поисковикам</a>
+                    <!--<noindex>-->
+                </li>
+            </ul>
+            <ol class="center">
+                <li>
+                    <a href="http://google.com" title="google">Поисковик</a>
+                </li>
+                <li>
+                    <a href="ftp://if0_34979279:1q6fCqSyE6HuQ@ftpupload.net/text.txt">my ftp</a>
+                </li>
+            </ol>
+        </div>
+        <div style="text-align: center;">
+            <table id="Table" class="table_center">
+                <tr>
+                    <th colspan="5">simple table</th>
+                </tr>
+                <tr>
+                    <th>id</th>
+                    <th>Name</th>
+                    <th colspan="2">Age&Programming language</th>
+                    <th>Сountry</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Smith</td>
+                        <td>31</td>
+                        <td>C++</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bob</td>
+                        <td>22</td>
+                        <td>Java</td>
+                        <td>France</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Zolo</td>
+                        <td>19</td>
+                        <td>PascalABC</td>
+                        <td>Russia</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Mike</td>
+                        <td>15</td>
+                        <td>Python</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Kyle</td>
+                        <td>25</td>
+                        <td>JavaScript</td>
+                        <td>Japan</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Tom</td>
+                        <td>28</td>
+                        <td>C#</td>
+                        <td>China</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <form action="/" method="post" class="center" id="Form">
+                <label>
+                    Фамилия Имя Отчество:
+                    <br>
+                    <input required name="name" type="text" placeholder="Иванов Иван Иванович">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Номер телефона:
+                    <br>
+                    <input required name="phone number" type="tel" placeholder="+7">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Электронная почта:
+                    <br>
+                    <input name="email" type="email" placeholder="example@mail.ru">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Дата рождения:
+                    <br>
+                    <input name="date" value="2023-09-08" type="date">
+                </label>
+                <br>
+                <br>
+                <label>
+                    Пол:
+                    <br>
+                    <input required name="gender" type="radio">Мужской
+                </label>
+                <label>
+                    <input required name="gender" type="radio">Женский
+                </label>
+                <br>
+                <br>
+                <label>
+                    Любимый язык програмирования:
+                    <br>
+                    <select required name="language">
+                        <option value="Pascal">Pascal</option>
+                        <option value="c">C</option>
+                        <option value="c++" selected="selected">C++</option>
+                        <option value="js">JavaScript</option>
+                        <option value="php">PHP</option>
+                        <option value="python">Python</option>
+                        <option value="java">Java</option>
+                        <option value="haskel">Haskel</option>
+                        <option value="clojure">Clojure</option>
+                        <option value="prolog">Prolog</option>
+                        <option value="scala">Scala</option>
+                    </select>
+                </label>
+                <br>
+                <br>
+                <label>
+                    Биография
+                    <br>
+                    <textarea required name="biography" cols="40" rows="15"
+                        placeholder="Здесь напишите  информацию о себе"></textarea>
+                </label>
+                <br>
+                <label>
+                    <input required name="check" type="checkbox">
+                    с контрактом ознакомлен (а)
+                    <br>
+                </label>
+                <br>
+                <label>
+                    <input type="submit" value="Сохранить">
+                </label>
+            </form>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <p class="footer">(c) Михаил Игнатенко</p>
+    </footer>
+</body>
+
+</html>
